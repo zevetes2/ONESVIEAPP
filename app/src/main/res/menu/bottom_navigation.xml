@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_atras"
+        android:icon="@drawable/ic_arrow_back_black_24dp"
+        android:title="Atras"
+        />
+    <item
+        android:id="@+id/nav_nosotros"
+        android:icon="@drawable/nosotros"
+        android:title="Nosotros" />
+    <item
+
+        android:id="@+id/nav_inicio"
+        android:icon="@drawable/inicio"
+        android:title="Inicio"
+        />
+    <item
+        android:id="@+id/nav_servicios"
+        android:icon="@drawable/servicios"
+        android:title="Servicios"/>
+    <item
+        android:id="@+id/nav_contactos"
+        android:icon="@drawable/contactos"
+        android:title="Contactos"/>
+</menu>

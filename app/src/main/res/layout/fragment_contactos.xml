@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ECECEC">
+
+        <FrameLayout
+            android:orientation="vertical"
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/colorPrimary"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CONTACTOS"
+                android:textColor="#fff"
+                android:textSize="25dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                />
+
+        </FrameLayout>
+        <LinearLayout
+            android:layout_below="@+id/title"
+            android:orientation="vertical"
+            android:id="@+id/first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_3"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:paddingTop="10dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Oficina Principal"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dirección"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ave. Ortega y Gasset  Edif. Comisión Nacional de Emergencia, # 419, Plaza de la Salud, Ens. la Fe, Santo Domingo, R.D."
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Horario"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lunes a Viernes, 8:00 a.m. - 2:30 p.m"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Teléfono"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(809) 567-6183"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Info@onesvie.gob.do"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_below="@+id/first"
+            android:orientation="vertical"
+            android:id="@+id/second"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_3"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp"
+            >
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mapa"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp"
+                android:textAlignment="center"
+                />
+            <ImageView
+                android:id="@+id/mapa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mapa"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dale click al mapa, para ver la ubicación de ONESVIE."
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="15dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_below="@+id/second"
+            android:orientation="vertical"
+            android:id="@+id/third"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_3"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp"
+            >
+            <TextView
+                android:id="@+id/titulo"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Redes Sociales y Pagina Web"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp"
+                android:textAlignment="center"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:gravity="center"
+                    android:id="@+id/f1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <RelativeLayout
+                        android:id="@+id/redfacebook"
+                        android:layout_marginRight="5dp"
+                        android:layout_width="125dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/bredes1"
+                        >
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/iconodefacebooklogo" />
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:id="@+id/redtwitter"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="125dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/bredes2"
+                        android:orientation="vertical"
+                        >
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_centerVertical="true"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/twitter"
+                            />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/f2"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <RelativeLayout
+                        android:id="@+id/redinstagram"
+                        android:layout_marginRight="5dp"
+                        android:layout_width="125dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/bredes3"
+                        >
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/iconodeinstagramlogo" />
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:id="@+id/redyoutube"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="125dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/bredes4"
+                        android:orientation="vertical"
+                        >
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_centerVertical="true"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/iconodeyoutubelogo"
+                            />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/f3"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <RelativeLayout
+                        android:id="@+id/redpagina"
+                        android:layout_marginRight="5dp"
+                        android:layout_width="260dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/bredes5"
+                        >
+
+                        <ImageView
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/logo" />
+
+                    </RelativeLayout>
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

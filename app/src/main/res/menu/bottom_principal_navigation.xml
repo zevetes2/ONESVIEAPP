@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_usuario"
+        android:title="Usuario"
+        android:icon="@drawable/usuario"
+        />
+    <item
+        android:id="@+id/nav_onesvie"
+        android:title="Onesvie"
+        android:icon="@drawable/informacion"
+        />
+    <item
+        android:id="@+id/nav_alerta"
+        android:title="Alerta"
+        android:icon="@drawable/alerta"
+        />
+</menu>
